@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <a href="../index.html"><h2>VOLVER ATRAS</h2></a>
+    
+    <img src="https://lenguajehtml.com/assets/logo.png" alt="Logo de HTML5" height="200px">
+
+    <picture>
+        <source srcset="image.avif">
+        <source srcset="image.webp">
+        <img src="image.jpg" alt="Descripción breve de la imagen">
+      </picture>
+
+      <picture>
+        <source media="(width >= 900px)"
+                srcset="https://lenguajehtml.com/assets/logo.png,
+                https://lenguajehtml.com/assets/logo.png 2x,
+                        https://lenguajehtml.com/assets/logo.png 3x">
+        <source media="(width >= 600px) and (width < 900px)"
+                srcset="logo-medium.png,
+                        logo-medium-hd.png 2x,
+                        logo-medium-fhd.png 3x">
+        <source media="(width < 600px)"
+                srcset="logo-small.png,
+                        logo-small-hd.png 2x,
+                        logo-small-fhd.png 3x">
+        <img src="logo-medium.png"
+             srcset="logo-medium.png,
+                     logo-medium-hd.png 2x,
+                     logo-medium-fhd.png 3x"
+             alt="HTML5 logo">
+      </picture>
+
+      <br>
+
+      <video autoplay muted src="../multimedia/Prueba corto 30 segundos.mp4" width="300px" height="300px"></video>
+      <br>
+      <audio controls autoplay src="../multimedia/y2mate.com - 22 Hasta el Amanecer  Nicky Jam  Video Oficial.mp3"></audio>
+      <br>
+      <br>
+      <iframe src="https://www.youtube.com/embed/Imeq3GeRttw" width="300px" height="300px">
+    </iframe>
+
+</body>
+</html>
